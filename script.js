@@ -1,6 +1,8 @@
 //your code here
 const textbox = document.createElement("textarea");
 const heading = document.createElement("h3");
+textbox.setAttribute("id", "evaluatedText");
+heading.setAttribute("id", "wordCount");
 document.body.appendChild(heading);
 document.body.appendChild(textbox);
 
